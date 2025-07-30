@@ -1,0 +1,39 @@
+h1{
+    background-color: rgba(138, 188, 242, 0.762);
+    color: aliceblue;
+    border: solid;
+    border-radius: 10px;
+    border-color: #063178;
+    border-width: 0px;
+    text-align: center;
+    border-width: 0px;
+    padding: 20px;
+}
+body{
+    background-color: rgb(134, 149, 150);
+}
+* {
+    padding: 2px;
+    margin: 0px;
+}
+#header{
+    margin: auto;
+    width: 550px;
+}
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #3e4944;
+    box-shadow: #144a97;
+    color: #eaebefdc;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: #284568;
+} 

@@ -1,0 +1,39 @@
+h1{
+    background-color: rgba(9, 85, 208, 0.236);
+    color: aliceblue;
+    border: solid;
+    border-radius: 10px;
+    border-color: #1f6fd7;
+    border-width: 5px;
+    text-align: center;
+    border-width: 5px;
+    padding: 20px;
+}
+body{
+    background-color: rgb(135, 222, 233);
+}
+ * {
+    padding: 2px;
+    margin: 0px;
+}
+#header{
+    margin: auto;
+    width: 600px;
+}
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #e44343;
+    box-shadow: #4dfb53;
+    color: #eaebefdc;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: #57dd7d;
+}

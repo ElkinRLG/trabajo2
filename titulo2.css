@@ -1,0 +1,40 @@
+h1{
+    background-color: rgb(193, 208, 239);
+    color: aliceblue;
+    border: solid;
+    border-radius: 10px;
+    border-color: #797d80;
+    border-width: 5px;
+    text-align: center;
+    border-width: 5px;
+    padding: 20px;
+}
+body{
+    background-color: rgb(118, 121, 130);
+}
+
+* {
+    padding: 2px;
+    margin: 0px;
+}
+#header{
+    margin: auto;
+    width: 600px;
+}
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #4aa5b5;
+    box-shadow: #2337a4;
+    color: #eaebefdc;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: #3fb863;
+}
